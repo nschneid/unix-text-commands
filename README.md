@@ -17,9 +17,10 @@ Notes about the commands below:
 * The descriptions are selective. For more comprehensive documentation of options, see the command's `man` page. For tutorials and examples, search the Web.
 
 
-Related resources:
+Some tutorials and references:
 
 * Ken Church's [Unix™ for Poets](http://www.stanford.edu/class/cs124/kwc-unix-for-poets.pdf)
+* Jim Notwell's [Introduction to Text-Processing](http://www.stanford.edu/class/cs273a/presentations/UnixTextProcessingPrimer.pdf)
 * Advanced Bash-Scripting Guide: [Text Processing Commands](http://tldp.org/LDP/abs/html/textproc.html)
 * [GNU Coreutils](https://www.gnu.org/software/coreutils/manual/coreutils.html)
   * for Mac OS X: [coreutils](https://code.google.com/p/rudix/wiki/coreutils), [sed](https://code.google.com/p/rudix/wiki/sed) (BSD implementations are built-in on OS X)
@@ -144,11 +145,11 @@ Searches text by regular expression.
   -  `-v` (`--invert-match`): filter out matches
   -  `-c` (`--count`): give counts of the matches within each file instead
      of the matches themselves
-  -  `-E` or **`egrep`**: extended regex syntax: unescaped `+`, `(`, and `)` serve as operators
-  -  `-F` or **`fgrep`**: literal string matching (no regexes)
+  -  `-E` or __`egrep`__: extended regex syntax: unescaped `+`, `(`, and `)` serve as operators
+  -  `-F` or __`fgrep`__: literal string matching (no regexes)
   -  `-H`: suppress filename when displaying matches
-  -  **`zgrep`** searches zip files
-  -  **`bzgrep`** searches bz files
+  -  __`zgrep`__ searches zip files
+  -  __`bzgrep`__ searches bz files
 
 ### Augmenting
 
