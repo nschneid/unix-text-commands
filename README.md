@@ -1,6 +1,6 @@
 # Unix Text Processing Command Reference
 
-### [Nathan Schneider][nschneid], 2012-12-28
+### [Nathan Schneider][nschneid], 2013-01-29
 
 [nschneid]: http://nathan.cl
 
@@ -170,7 +170,7 @@ Adds line numbers to a file. (Cf. `cat -n`.) Options control formatting and coun
 
 Sorts the input lines.
 
-   -  **PUNCTUATION/SPECIAL CHARS [MAY BE IGNORED](http://unix.stackexchange.com/questions/4422/is-gnu-coreutils-sort-broken) depending on the
+  -  **PUNCTUATION/SPECIAL CHARS [MAY BE IGNORED](http://unix.stackexchange.com/questions/4422/is-gnu-coreutils-sort-broken) depending on the
       value of the `LC_COLLATE` environment variable**
   -  `-f`: ignores case
   -  `-n`: “string numerical value”
@@ -180,6 +180,8 @@ Sorts the input lines.
   -  `-u`: unique
   -  `-k`: sort key (field offsets)
   -  `-t`: field delimiter
+
+  * To sort by the first column, keeping only the last record for each: `tac FILE | sort -k1,1 -u`
 
 #### [`shuf`][]
 
