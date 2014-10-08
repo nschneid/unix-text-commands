@@ -14,14 +14,14 @@ Notes about the commands below:
 
 * `ALLCAPS` indicates a metavariable.
 
-* The descriptions are selective. For more comprehensive documentation of options, see the command's `man` page. For tutorials and examples, search the Web.
+* The descriptions are selective. For more comprehensive documentation of options, see the command’s `man` page. For tutorials and examples, search the Web.
 
 
 Some tutorials and references:
 
-* Ken Church's [Unix™ for Poets](http://www.stanford.edu/class/cs124/kwc-unix-for-poets.pdf)
-* Jim Notwell's [Introduction to Text-Processing](http://www.stanford.edu/class/cs273a/presentations/UnixTextProcessingPrimer.pdf)
-* Na-Rae Han's [Command-line Magic](http://www.pitt.edu/~naraehan/commandline-magic.pdf)
+* Ken Church’s [Unix™ for Poets](http://www.stanford.edu/class/cs124/kwc-unix-for-poets.pdf)
+* Jim Notwell’s [Introduction to Text-Processing](http://www.stanford.edu/class/cs273a/presentations/UnixTextProcessingPrimer.pdf)
+* Na-Rae Han’s [Command-line Magic](http://www.pitt.edu/~naraehan/commandline-magic.pdf)
 * Advanced Bash-Scripting Guide: [Text Processing Commands](http://tldp.org/LDP/abs/html/textproc.html)
 * [GNU Coreutils](https://www.gnu.org/software/coreutils/manual/coreutils.html)
   * for Mac OS X: [coreutils](https://code.google.com/p/rudix/wiki/coreutils), [sed](https://code.google.com/p/rudix/wiki/sed) (BSD implementations are built-in on OS X)
