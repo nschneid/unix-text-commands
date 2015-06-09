@@ -294,7 +294,7 @@ organized into columns according to their commonality.
 
   -  `-1` to suppress the first column (lines only in `FILE1`)
   -  `-2` to suppress the second column (lines only in `FILE2`)
-  -  `-3` to suppress the third column (lines common two both files)
+  -  `-3` to suppress the third column (lines common to both files)
   -  `-i` for case-insensitive comparison
   -  if the files are sorted, `join -t'`<br/>
       `' FILE1 FILE2` is much faster than `comm -1 -2 FILE1 FILE2`
