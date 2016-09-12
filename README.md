@@ -20,8 +20,8 @@ Notes about the commands below:
 Some tutorials and references:
 
 * Ken Church’s [Unix™ for Poets](http://www.stanford.edu/class/cs124/kwc-unix-for-poets.pdf)
-* Jim Notwell’s [Introduction to Text-Processing](http://www.stanford.edu/class/cs273a/presentations/UnixTextProcessingPrimer.pdf)
-* Na-Rae Han’s [Command-line Magic](http://www.pitt.edu/~naraehan/commandline-magic.pdf)
+* Jim Notwell’s [Introduction to Text-Processing](http://web.stanford.edu/class/cs273a/presentations.aut11/UnixTextProcessingPrimer.pdf)
+* Na-Rae Han’s [Command-line Magic](http://www.pitt.edu/~naraehan/2015-10-14-commandline-magic.pdf)
 * Advanced Bash-Scripting Guide: [Text Processing Commands](http://tldp.org/LDP/abs/html/textproc.html)
 * [GNU Coreutils](https://www.gnu.org/software/coreutils/manual/coreutils.html)
   * for Mac OS X: [coreutils](https://code.google.com/p/rudix/wiki/coreutils), [sed](https://code.google.com/p/rudix/wiki/sed) (BSD implementations are built-in on OS X)
